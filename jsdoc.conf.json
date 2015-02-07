@@ -1,0 +1,36 @@
+{
+  "tags": {
+    "allowUnknownTags": false
+  },
+  "plugins": [
+    "node_modules/jsdoc-plugin-strip-outer-iife/strip-outer-iife.js",
+    "plugins/markdown"
+  ],
+  "source": {
+    "include": [
+      "lib/",
+      "src/"
+    ]
+  },
+  "opts": {
+    "destination": "docs",
+    "package": "package.json",
+    "template": "node_modules/jsdoc-oblivion/template",
+    "encoding": "utf8"
+  },
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false,
+    "default": {
+      "outputSourceFiles": true
+    },
+    "systemName": "<INSERT PROJECT NAME HERE>",
+    "footer": "",
+    "copyright": "Copyright &copy; <INSERT YEAR HERE> <INSERT OWNER HERE>",
+    "navType": "vertical",
+    "theme": "oblivion",
+    "linenums": true,
+    "collapseSymbols": false,
+    "inverseNav": true
+  }
+}

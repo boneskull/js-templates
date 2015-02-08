@@ -5,6 +5,7 @@ These are my file templates for JavaScript projects.
 ## Manifest
 
 - `.editorconfig`: Two spaces
+- `.eslintignore`: Don't worry about `karma.conf.js` 
 - `.eslintrc.yml`: If using ESLint, a starting point for linting
 - `.gitignore`: For a standard NodeJS project, accompanied by temp files for many popular editors and operating systems
 - `.jscsrc`: Represents my coding style pretty well; based on Crockford with some tweaks

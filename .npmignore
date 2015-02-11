@@ -6,3 +6,5 @@ test/
 spec/
 docs/
 dist/
+Gruntfile.js
+tasks/

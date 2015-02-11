@@ -1,0 +1,35 @@
+{
+  "env": [
+    "node",
+    "mocha"
+  ],
+  "rules": {
+    "radix": true,
+    "max-len": 80,
+    "no-return-assign": false,
+    "no-self-compare": true,
+    "max-params": 4,
+    "quotes": "single",
+    "no-else-return": true,
+    "func-names": true,
+    "no-multiple-empty-lines": {
+      "max": 2
+    },
+    "comma-style": "last",
+    "no-void": true,
+    "consistent-this": "self",
+    "no-extra-parens": true,
+    "no-nested-ternary": true,
+    "vars-on-top": true,
+    "brace-style": true,
+    "no-use-before-define": false,
+    "space-before-blocks": "always",
+    "wrap-iife": true,
+    "valid-jsdoc": true,
+    "no-floating-decimal": true,
+    "spaced-line-comment": "always",
+    "no-underscore-dangle": false,
+    "space-after-keywords": "always",
+    "no-reserved-keys": true
+  }
+}

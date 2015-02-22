@@ -1,5 +1,7 @@
 {
-  "env": "node",
+  "env": {
+    "node": true
+  },
   "rules": {
     "radix": true,
     "max-len": 80,
@@ -28,5 +30,8 @@
     "no-underscore-dangle": false,
     "space-after-keywords": "always",
     "no-reserved-keys": true
+  },
+  "globals": {
+    "Promise": true
   }
 }

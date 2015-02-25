@@ -7,7 +7,7 @@
     "comma-style": [2, "last"],
     "consistent-this": [2, "self"],
     "func-names": [2],
-    "func-style": [2, "declaration"],
+    "func-style": [2, "expression"],
     "max-len": [2, 80, 4],
     "max-params": [2, 4],
     "no-cond-assign": [2, "except-parens"],

@@ -14,7 +14,11 @@ module.exports = function (grunt) {
 
   loadGruntConfig(grunt, {
     configPath: join(__dirname, 'tasks'),
-    jitGrunt: {},
+    jitGrunt: {
+      staticMappings: {
+        'devUpdate': 'grunt-dev-update'
+      }
+    },
     data: {
       pkg: require(join(__dirname, 'package.json'))
     }

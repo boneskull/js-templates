@@ -1,0 +1,14 @@
+options:
+  updateType: prompt
+dev:
+  semver: false
+dev-safe:
+production:
+  semver: false
+  packages:
+    dependencies: true
+    devDependencies: true
+production-safe:
+  packages:
+    dependencies: true
+    devDependencies: true

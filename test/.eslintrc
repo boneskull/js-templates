@@ -1,8 +1,8 @@
 {
-  "env": [
-    "node",
-    "mocha"
-  ],
+  "env": {
+    "node": true,
+    "mocha": true
+  },
   "rules": {
     "radix": true,
     "max-len": 80,

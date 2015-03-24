@@ -9,7 +9,7 @@
     "consistent-return": [0],
     "func-style": [2, "expression"],
     "max-len": [2, 80, 4],
-    "max-params": [2, 4],
+    "max-params": [1, 4],
     "no-shadow": [0],
     "no-cond-assign": [2, "except-parens"],
     "no-else-return": [2],
@@ -28,7 +28,7 @@
     "space-after-keywords": [2, "always"],
     "space-before-blocks": [2, "always"],
     "spaced-line-comment": [2, "always"],
-    "valid-jsdoc": [2],
+    "valid-jsdoc": [1],
     "vars-on-top": [2],
     "wrap-iife": [2]
   },

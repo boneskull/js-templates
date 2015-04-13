@@ -13,7 +13,6 @@ module.exports = function (grunt) {
   }
 
   loadGruntConfig(grunt, {
-    configPath: join(__dirname, 'tasks'),
     jitGrunt: {
       staticMappings: {
         'devUpdate': 'grunt-dev-update'

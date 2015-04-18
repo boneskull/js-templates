@@ -3,7 +3,7 @@ options:
 dev:
   options:
     semver: false
-dev-safe:
+dev-safe: {}
 production:
   options:
     semver: false
